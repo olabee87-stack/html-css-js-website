@@ -36,6 +36,8 @@
   display: flex;
   align-items: center;
   font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb100 100%);
   background-size: 100%;
@@ -192,3 +194,73 @@
   }
 }
 /* ****NAVBAR ENDS**** */
+
+/* ****HERO SECTION**** */
+.hero {
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  padding: 200px 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 90%;
+}
+
+.hero-heading {
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.hero-heading span {
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-size: 60px;
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+  background: linear-gradient(to right, #9114ff, #da22ff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.highlight {
+  /* will apply when the navbar is scrolled - implement in JS */
+  border-bottom: 4px solid rgb(132, 0, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    font-size: 60px;
+  }
+  .hero-description {
+    font-size: 40px;
+  }
+}
+/* ****HERO SECTION ENDS**** */
