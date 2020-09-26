@@ -101,7 +101,7 @@
 @media screen and (max-width: 960px) {
   .navbar-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     height: 80px;
     max-width: 1300px;
