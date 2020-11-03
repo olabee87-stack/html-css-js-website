@@ -546,4 +546,16 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1300px) {
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* **SERVICES SECTION ENDS** */
