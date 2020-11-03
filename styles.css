@@ -667,7 +667,7 @@
   }
 }
 
-@media scree and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .footer-links-items {
     margin: 0;
     padding: 10px;
