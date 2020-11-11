@@ -240,7 +240,7 @@
 }
 
 .hero-description {
-  font-size: 60px;
+  font-size: 40px;
   background: #da22ff;
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
   background: linear-gradient(to right, #9114ff, #da22ff);
@@ -363,6 +363,22 @@
 
 .main-img-container {
   text-align: center;
+}
+
+/* profile-picture */
+.main-img-photo-card {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 70%;
+  border-radius: 4px;
 }
 
 .main-img-card {
