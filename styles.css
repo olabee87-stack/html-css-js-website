@@ -487,10 +487,9 @@
   }
   .main-content h2 {
     font-size: 2rem;
-    margin: 0 auto;
   }
   .main-content p {
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
   }
   .main-btn {
     padding: 12px 36px;
