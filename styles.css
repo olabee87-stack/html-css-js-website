@@ -487,6 +487,7 @@
   }
   .main-content h2 {
     font-size: 2rem;
+    margin: 0 auto;
   }
   .main-content p {
     margin-top: 2rem;
