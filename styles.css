@@ -303,7 +303,7 @@
 }
 
 .main-content h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   background: #ff8177;
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
   background: linear-gradient(to right, #8f0eff, #da22ff);
@@ -315,8 +315,8 @@
 
 .main-content p {
   margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .main-btn {
@@ -376,7 +376,9 @@
   justify-content: center;
 }
 
-img {
+/* the-image-itself */
+.profile-photo,
+.i-photo {
   width: 70%;
   border-radius: 4px;
 }
@@ -390,7 +392,12 @@ img {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+}
+
+/* i-image */
+.top {
+  margin-top: 100px;
 }
 
 .fa-layer-group,
@@ -423,6 +430,19 @@ img {
     width: 425px;
   }
 
+  /* picture card */
+  .main-img-photo-card {
+    height: 425px;
+    width: 425px;
+  }
+
+  .profile-photo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* picture things end */
+
   .main-content {
     text-align: center;
     margin-bottom: 4rem;
@@ -432,7 +452,7 @@ img {
     margin-top: 2rem;
   }
   .main-content h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .main-content p {
     margin-top: 1rem;
@@ -465,6 +485,18 @@ img {
   }
 }
 /* **ABOUT SECTION ENDS** */
+
+/* EDUCATION SECTION */
+.edu {
+  background: #ff8177;
+  background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+  background: linear-gradient(to right, #8f0eff, #da22ff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+/* **EDUCATION SECTION ENDS** */
 
 /* **SERVICES SECTION** */
 .services {
