@@ -42,6 +42,7 @@
   background-image: linear-gradient(to top, #ff0844 0%, #ffb100 100%);
   background-size: 100%;
   /* enforce design on text, not bckgrnd */
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -233,6 +234,7 @@
     #ee0979
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -244,6 +246,7 @@
   background: #da22ff;
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
   background: linear-gradient(to right, #9114ff, #da22ff);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -294,6 +297,7 @@
   background-color: #fe3b6f;
   background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
   background-size: 100%;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -307,6 +311,7 @@
   background: #ff8177;
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
   background: linear-gradient(to right, #8f0eff, #da22ff);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -491,6 +496,7 @@
   background: #ff8177;
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
   background: linear-gradient(to right, #8f0eff, #da22ff);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -513,6 +519,7 @@
   background-color: #ff8177;
   background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
   background-size: 100%;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
